@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
 
 class Person:
-    pass
+    def __init__(self, name):
+        self.name = name
+        print(f"My name is {name} ")
+
+Eva = Person("Eva")
+Eva.name
+        
